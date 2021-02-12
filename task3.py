@@ -18,7 +18,6 @@ Enter a number: -3
 import math
 
 data = float(input("Please enter a number. "))
-data = int(data)
 
 if data >= 0:
     print(str(data) + " is a positive integer.")
