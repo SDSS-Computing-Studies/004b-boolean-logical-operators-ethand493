@@ -40,7 +40,7 @@ if (math.sqrt(data)**2 == data):
 if (round(data ** (1 / 3)) ** 3 == data):
     cube = True
 if cube == True and square == True:
-    print(str(data) + " is both a perfect square and perfect cube.")
+    print(str(data) + " is both a perfect square and a perfect cube.")
 elif square == True:
     print(str(data) + " is only a perfect square")
 elif cube == True:
