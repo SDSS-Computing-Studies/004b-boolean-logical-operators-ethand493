@@ -34,6 +34,6 @@ if data1%data2 == 0:
     isfactor = True
 
 if isfactor == True:
-    print(str(int(data2)) + " is a factor of " + str(int(data1)))
+    print(str(int(data1)) + " is a factor of " + str(int(data2)))
 else:
-    print(str(int(data2)) + " is not a factor of " + str(int(data1)))
+    print(str(int(data1)) + " is not a factor of " + str(int(data2)))
