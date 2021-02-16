@@ -41,6 +41,6 @@ elif a**2 + c**2 == b**2:
     formed = True
 
 if formed == True:
-    print(str(a) + "," + str(b) + "," + str(c) + " form a Pythagorean Triple")
+    print(str(int(a)) + "," + str(int(b)) + "," + str(int(c)) + " form a Pythagorean Triple")
 else:
-    print(str(a) + "," + str(b) + "," + str(c) + " do not form a Pythagorean Triple")
+    print(str(int(a)) + "," + str(int(b)) + "," + str(int(c)) + " do not form a Pythagorean Triple")
