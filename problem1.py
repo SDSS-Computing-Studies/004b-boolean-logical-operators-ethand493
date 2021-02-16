@@ -19,3 +19,22 @@ Enter a number: 48
 """
 
 #! python3
+
+import math
+
+data = float(input("Please enter a number."))
+
+isdivisible6 = False
+
+if data%6 == 0:
+    isdivisible6 = True
+
+isdivisible8 = False
+
+if data%8 == 0:
+    isdivisible8 = True
+
+if isdivisible8 == False and isdivisible6 == True:
+    print(str(data) + " is frue")
+else:
+    print(str(data) + " is not frue") 

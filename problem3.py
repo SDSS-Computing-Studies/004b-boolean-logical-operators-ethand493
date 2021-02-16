@@ -26,3 +26,21 @@ Enter an integer=>4
 Enter an integer=>2
 2,4,5 do not form a Pythagorean triple
 """
+
+a = float(input("Please enter a number."))
+b = float(input("Please enter another number."))
+c = float(input("Please enter a final number."))
+
+formed = False
+
+if a**2 + b**2 == c**2:
+    formed = True
+elif b**2 + c**2 == a**2:
+    formed = True
+elif a**2 + c**2 == b**2:
+    formed = True
+
+if formed == True:
+    print(str(a) + "," + str(b) + "," + str(c) + " form a Pythagorean Triple")
+else:
+    print(str(a) + "," + str(b) + "," + str(c) + " do not form a Pythagorean Triple")
