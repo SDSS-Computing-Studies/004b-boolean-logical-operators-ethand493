@@ -59,6 +59,6 @@ elif a > c and c > b:
 
 
 if formed == True:
-    print(str(int(smallest)) + "," + str(int(middle)) + "," + str(int(biggest)) + " form a Pythagorean Triple")
+    print(str(int(smallest)) + "," + str(int(middle)) + "," + str(int(biggest)) + " form a Pythagorean triple")
 else:
-    print(str(int(smallest)) + "," + str(int(middle)) + "," + str(int(biggest)) + " do not form a Pythagorean Triple")
+    print(str(int(smallest)) + "," + str(int(middle)) + "," + str(int(biggest)) + " do not form a Pythagorean triple")
