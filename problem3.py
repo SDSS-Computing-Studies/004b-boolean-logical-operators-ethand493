@@ -40,7 +40,25 @@ elif b**2 + c**2 == a**2:
 elif a**2 + c**2 == b**2:
     formed = True
 
+if a > b and b > c:
+    biggest = a
+    middle = b
+    smallest = c
+elif c > b and b > a:
+    biggest = c
+    middle = b
+    smallest = a
+elif b > c and c > a:
+    biggest = b
+    middle = c
+    smallest = a
+elif a > c and c > b:
+    biggest = a
+    middle = c
+    smallest = b
+
+
 if formed == True:
-    print(str(int(a)) + "," + str(int(b)) + "," + str(int(c)) + " form a Pythagorean Triple")
+    print(str(int(smallest)) + "," + str(int(middle)) + "," + str(int(biggest)) + " form a Pythagorean Triple")
 else:
-    print(str(int(a)) + "," + str(int(b)) + "," + str(int(c)) + " do not form a Pythagorean Triple")
+    print(str(int(smallest)) + "," + str(int(middle)) + "," + str(int(biggest)) + " do not form a Pythagorean Triple")
