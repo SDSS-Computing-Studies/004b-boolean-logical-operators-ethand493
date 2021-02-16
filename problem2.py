@@ -33,7 +33,14 @@ isfactor = False
 if data1%data2 == 0:
     isfactor = True
 
+if data1 > data2:
+    smallest = data2
+    biggest = data1
+elif data2 > data1:
+    smallest = data1
+    biggest = data2
+
 if isfactor == True:
-    print(str(int(data1)) + " is a factor of " + str(int(data2)))
+    print(str(int(smallest)) + " is a factor of " + str(int(biggest)))
 else:
-    print(str(int(data1)) + " is not a factor of " + str(int(data2)))
+    print(str(int(smallest)) + " is not a factor of " + str(int(biggest)))
